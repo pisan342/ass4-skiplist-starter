@@ -8,4 +8,9 @@
 
 using namespace std;
 
+// checks if the value needs to be inserted at a higher level
+bool SkipList::shouldInsertAtHigherLevel() const {
+  return probability >= Random::random() % 100;
+}
+
 // you code goes here
