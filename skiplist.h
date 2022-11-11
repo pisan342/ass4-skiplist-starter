@@ -85,10 +85,10 @@ public:
   // destructor
   virtual ~SkipList();
 
-  // return true if successfully added, no duplicates allowed
+  // Add to list, assume no duplicates
   void add(int val);
 
-  // return true if successfully added, no duplicates
+  // Add to list, assume no duplicates
   void add(const vector<int> &values);
 
   // return true if successfully removed
