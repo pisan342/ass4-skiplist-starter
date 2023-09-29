@@ -31,5 +31,6 @@
 *.out
 *.app
 
-.DS_STORE
+# When debugging main is created
+main
 
